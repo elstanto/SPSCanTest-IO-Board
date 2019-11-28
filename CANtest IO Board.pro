@@ -1,4 +1,4 @@
-update=27/11/2019 09:17:22
+update=28/11/2019 13:34:54
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=Switch/1825117-1
+LibName34=Switch2/OS102011MS2QN1C

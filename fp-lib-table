@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 1825117-1)(type Legacy)(uri "$(KIPRJMOD)/Switch/1825117-1.mod")(options "")(descr ""))
+  (lib (name OS102011MS2QN1C)(type Legacy)(uri "$(KIPRJMOD)/Switch2/OS102011MS2QN1C.mod")(options "")(descr ""))
+)

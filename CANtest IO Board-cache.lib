@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 1825117-1
+#
+DEF 1825117-1 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "1825117-1" 650 200 50 H V L CNN
+F2 "SHDR4W87P0X320_1X4_1511X584X1100P" 650 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/0f8d/0900766b80f8d468.pdf" 650 0 50 H I L CNN
+F4 "Slide switch,PCB,SP3T,3 pos,vertical mnt" 650 -100 50 H I L CNN "Description"
+F5 "10.998" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1825117-1" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "7182317P" 650 -700 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/7182317P" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 800 0 200 L 50 50 0 0 U
+X 4 4 800 -100 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 # Conn_02x16_Counter_Clockwise
 #
 DEF Conn_02x16_Counter_Clockwise J 0 40 Y N 1 F N
@@ -102,6 +124,31 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# OS102011MS2QN1C
+#
+DEF OS102011MS2QN1C S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "OS102011MS2QN1C" 850 200 50 H V L CNN
+F2 "OS102011MS2QN1C" 850 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1546147" 850 0 50 H I L CNN
+F4 "Through Hole Slide Switch Single Pole Double Throw (SPDT) Latching 100 mA Slide" 850 -100 50 H I L CNN "Description"
+F5 "8.7" 850 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OS102011MS2QN1C" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "611-OS102011MS2QN1C" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-OS102011MS2QN1C" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1546147" 850 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1546147" 850 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 U
+X COM 2 0 -100 200 R 50 50 0 0 U
+X NC 3 0 -200 200 R 50 50 0 0 N
+X MH1 MH1 1000 0 200 L 50 50 0 0 U
+X MH2 MH2 1000 -100 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 # R
 #
 DEF R R 0 0 N Y 1 F N
@@ -134,41 +181,6 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# SW_SPDT_MSM
-#
-DEF SW_SPDT_MSM SW 0 0 Y N 1 F N
-F0 "SW" 0 200 50 H V C CNN
-F1 "SW_SPDT_MSM" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-P 2 0 0 0 -60 5 70 40 N
-C 80 100 20 0 1 0 N
-C 90 0 20 0 1 0 N
-X 1 1 200 100 100 L 50 50 1 1 P
-X 2 2 -200 0 100 R 50 50 1 1 P
-X 3 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SW_SPST
-#
-DEF SW_SPST SW 0 0 Y N 1 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "SW_SPST" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
